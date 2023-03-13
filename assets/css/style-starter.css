@@ -17710,7 +17710,7 @@ h6.left-text-design:after {
 /* //banner bottom section */
 
 /* feature section */
-.w3l-feature-8 {
+.w3l-feature-80 {
   background: url(../images/valuebg.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -17718,7 +17718,7 @@ h6.left-text-design:after {
   -o-background-size: cover;
   -ms-background-size: cover;
   position: relative;
-  min-height: 40vh !important;
+  min-height: 30vh !important;
   z-index: 1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue" !important;
 }
@@ -17745,7 +17745,7 @@ h3.heading-style{
   color: #000;
 }
 
-.w3l-feature-8::before {
+.w3l-feature-80::before {
   content: "";
   position: absolute;
   top: 0;
@@ -17760,7 +17760,7 @@ h3.heading-style{
 }
 
 .w3l-feature-8 h3.feature-titel {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   color: #fff;
   transition: all .25s ease-in-out;
@@ -17768,14 +17768,20 @@ h3.heading-style{
 
 .w3l-feature-8 p.feature-text {
   margin-top: 15px;
-  color: #eee;
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
 }
+
 
 .feature-info a:hover h3.feature-titel {
   color: var(--secondary-color);
   transition: all .25s ease-in-out;
 }
 
+.feature-info p{
+  color: white;
+}
 /* //feature section */
 
 /* stats */
@@ -18993,11 +18999,7 @@ h4.inner-text-title {
    background: var(--yellow);
 }
 
-.our-community h3{
-  margin-bottom: 40px;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue" !important;
-}
+
 
 .title-style-heading h3{
   margin-bottom: 40px;
@@ -19264,8 +19266,60 @@ form.subscribe-wthree input:focus {
 /*--//w3l-newsletter--*/
 
 
-.pill-nav:active{
+.value-section{
+  font-family: 'Trebuchet MS', sans-serif !important;
+}
 
+.value-section h3,
+.value-section h4,
+.our-community h3,
+.our-community p,
+.mission-feature h3,
+.mission-feature p
+{
+  font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.w3l-feature-80 h3,
+.w3l-feature-80 p{
+  font-family: 'Trebuchet MS', sans-serif !important;
+  color: white;
+  text-align: center;
+}
+
+.admin-process h3,
+.admin-process p,
+.wel-intro h3,
+.wel-intro p,
+.stages h2,
+.stages h4,
+.stages p,
+.w3l-newsletter h3,
+.w3l-newsletter p,
+.w3l-aboutblock h3,
+.w3l-aboutblock p,
+.contact-feature p,
+.map-feature h3,
+.map-feature label,
+.w3l-grids-block-5 h3,
+.w3l-grids-block-5 h5,
+.w3l-grids-block-5 p,
+.w3l-grids-block-5 a{
+  font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.value-section{
+  /* background: url(../images/valuebg.jpg) no-repeat center fixed; */
+  background: whitesmoke;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  position: relative;
+  min-height: 30vh !important;
+  z-index: 1;
+  border-radius: 10px; 
 }
 
 .pill-nav a:active{
