@@ -17711,7 +17711,7 @@ h6.left-text-design:after {
 
 /* feature section */
 .w3l-feature-80 {
-  background: url(../images/valuebg.jpg) no-repeat center fixed;
+  background: url(../images/Untitled.jpg) no-repeat center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17762,7 +17762,7 @@ h3.heading-style{
 .w3l-feature-8 h3.feature-titel {
   font-size: 26px;
   font-weight: 600;
-  color: #fff;
+  color: #ffffff;
   transition: all .25s ease-in-out;
 }
 
@@ -19306,6 +19306,15 @@ form.subscribe-wthree input:focus {
 .w3l-grids-block-5 p,
 .w3l-grids-block-5 a{
   font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.feature-value h4{
+  color: white !important;
+  font-family: 'Trebuchet MS', sans-serif !important;
+}
+
+.value-box{
+  height: 31.5vh;
 }
 
 .value-section{
